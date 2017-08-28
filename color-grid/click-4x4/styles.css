@@ -22,6 +22,9 @@ body {
   background-color: midnightblue !important;
 }
 
+.box:hover {
+  background-color: black;
+}
 
 .box {
 	height: 25%;
