@@ -1,0 +1,57 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	background-color: black;
+}
+
+.lightblue {
+  background-color: lightblue !important;
+  transition: background-color 3s ease !important;
+}
+
+.mediumblue {
+  background-color: royalblue !important;
+  transition: background-color 3s ease !important;
+}
+
+.darkblue {
+  background-color: midnightblue !important;
+  transition: background-color 3s ease !important;
+}
+
+.box:hover {
+  background-color: white;
+  transition: background-color .5s ease;
+  transition: all 1s ease;
+  transform: scale(.75);
+  border-radius: 50%;
+}
+
+.box {
+	height: 25%;
+	width: 25%;
+	display: inline-block;
+}
+
+.lightpink {
+	background-color: mistyrose;
+}
+
+.mediumpink {
+	background-color: pink;
+}
+
+.darkpink {
+	background-color: palevioletred;
+}
+
+
+
+
