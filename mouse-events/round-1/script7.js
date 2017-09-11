@@ -12,7 +12,7 @@ $(".box").mouseover(function() {
 
 $(".box").click(function() {
 ion.sound({
-    sounds: [
+    var sounds: [
         {name: "button_tiny"},
         {name: "metal_plate"}
     ],
@@ -23,8 +23,9 @@ ion.sound({
     multiplay: true,
     volume: 0.9
 });
+  
 // play sound
-ion.sound.play("button_tiny, metal_plate");
+ion.sound.play(sounds);
 });
 
 
