@@ -15,8 +15,8 @@ body {
 }
 
 .box {
-	height: 2%;
-	width: 1.5%;
+	height: 50%;
+	width: 50%;
 	display: inline-block;
 	transition: all .5s ease;
 	background-color: white;

@@ -8,13 +8,10 @@ $(".box").mouseover(function() {
   $(this).css("background-color", randomColor({luminosity: 'light', hue: 'pink'}));
 });
 
-
-
-$(".box").click(function() {
+$(".one").mouseover(function() {
 ion.sound({
-    var sounds: [
+    sounds: [
         {name: "button_tiny"},
-        {name: "metal_plate"}
     ],
 
     // main config
@@ -23,9 +20,9 @@ ion.sound({
     multiplay: true,
     volume: 0.9
 });
-  
 // play sound
-ion.sound.play(sounds);
+ion.sound.play("button_tiny");
 });
+
 
 
