@@ -10,7 +10,7 @@ $(".box").mouseover(function() {
 
 
 
-$(".box").click(function() {
+$(".box").mouseover(function() {
 ion.sound({
     sounds: [
         {name: "button_tiny"},
