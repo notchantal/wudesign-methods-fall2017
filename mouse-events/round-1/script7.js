@@ -8,7 +8,7 @@ $(".box").mouseover(function() {
   $(this).css("background-color", randomColor({luminosity: 'light', hue: 'pink'}));
 });
 
-$(".one").mouseover(function() {
+$('#one').mouseover(function() {
 ion.sound({
     sounds: [
         {name: "button_tiny"},
