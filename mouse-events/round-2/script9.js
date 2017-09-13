@@ -9,10 +9,8 @@ $('.container').mousemove(function() {
   	});
 });
 
-
-
 $('.container').click(function() {
-	new Audio('./sounds/dress_shoe_run_on_gravel.ogg').play()
+	new Audio('./sounds/obama/yes-we-can-speech.mp3').play()
 });
 
 
