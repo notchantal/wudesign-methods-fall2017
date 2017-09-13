@@ -7,13 +7,13 @@ $('.container').mousemove(function() {
   		'background-repeat': 'repeat',
   		'background-size': '25%'
   	});
-  	new Audio('./sounds/obama/obama1.mp3').play()
-
 });
 
-// $('.container').click(function() {
-// 	new Audio('./sounds/obama/obama1.mp3').play()
-// });
 
 
+$('.container').click(function() {
+	var sound = ["sounds/obama/obama1.mp3", "sounds/obama/obama1.mp3"]
+	var selectedsound = Math.floor(Math.random()*sound.length);
+	new Audio('+sound[selectedsound]+').play()
+});
 
