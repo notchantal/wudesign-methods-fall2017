@@ -2,7 +2,11 @@ $('.line').mouseover(function() {
   $(this).toggleClass("skew big");
   $(".line").css("background-color", randomColor);
   $('body').css("background-color", randomColor);
-  ion.sound({
+});
+
+
+$('.line').click(function() {
+ion.sound({
     sounds: [
         {name: "snap"},
     ],
