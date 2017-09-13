@@ -5,18 +5,9 @@ $('.line').mouseover(function() {
 });
 
 
-$('.line').click(function() {
-ion.sound({
-    sounds: [
-        {name: "snap"},
-    ],
-
-    // main config
-    path: "sounds/",
-    preload: true,
-    multiplay: true,
-    volume: 0.9
-    });
-// play sound
-ion.sound.play("snap");
+$('.line').mouseover(function() {
+new Audio('./sounds/wet_tire_drive_by.ogg').play()
+new Audio('./sounds/helicopter_by.ogg').play()
+new Audio('./sounds/dress_shoe_run_on_gravel.ogg').play()
 });
+
