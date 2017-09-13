@@ -6,8 +6,8 @@ $('.line').mouseover(function() {
 
 
 $('.line').mouseover(function() {
-new Audio('./sounds/wet_tire_drive_by.ogg').play()
-new Audio('./sounds/helicopter_by.ogg').play()
-new Audio('./sounds/dress_shoe_run_on_gravel.ogg').play()
+new Audio('./sounds/wet_tire_drive_by.mp3').play()
+new Audio('./sounds/helicopter_by.mp3').play()
+new Audio('./sounds/dress_shoe_run_on_gravel.mp3').play()
 });
 
