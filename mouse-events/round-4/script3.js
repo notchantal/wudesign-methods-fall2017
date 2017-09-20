@@ -32,7 +32,7 @@ $(function(){
 		"We promptly judged antique ivory buckles for the next prize."
 		]
 
-	window.alert("Move mouse to write, click to change font.");
+	window.alert("MOVE mouse to compose, CLICK to change font and size.");
 
 		$('.page').mousemove(function(e){
 			var newDiv = $('<div class="coloredBlock">')
@@ -53,8 +53,21 @@ $(function(){
 			var selectedfontName = Math.floor(Math.random()*fontName.length);	
 			$('body').css({
 					"font-family": fontName[selectedfontName]
+			})
+
+			$('body').each(function(){
+				var number = 3 + Math.floor(Math.random()*10)
+				$(this).css({
+					"font-size": [number]+'px',
 				})
-			});
+			})
+
+			$('.coloredBlock').each(function(){
+				var rotateamt = ["rotate1", "rotate2", "rotate3", "rotate4"]
+				var selectedrotateamt = Math.floor(Math.random()*rotateamt.length);
+				$(this).toggleClass(rotateamt[selectedrotateamt])
+			})
+		});
 
 
 		$('.page').append(newDiv);

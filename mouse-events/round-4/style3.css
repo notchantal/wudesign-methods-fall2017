@@ -9,14 +9,14 @@ html, body {
     position: relative;
     font-family: serif;
     background-color: black;
+    font-size: 8px;
 
 }
 
 p {
-	font-size: 8px;
     margin: 0;
     padding: 0;
-    opacity: .12;
+    opacity: .075;
 }
 
 .coloredBlock {
@@ -35,13 +35,20 @@ p {
 	opacity: 1;
 }
 
-.skew1 {
-    transform: skewX(-20deg) rotate(10deg) translate(-10%, -50%);;
-    transition: all .25s ease;
+.rotate1 {
+    transform: rotate(10deg);
 }
 
-.skew2 {
-    transform: skewX(-500deg) rotate(100deg) translate(-50%, -10%);;
-    transition: all .25s ease;
+.rotate2 {
+    transform: rotate(50deg);
 }
+
+.rotate3 {
+    transform: rotate(-200deg);
+}
+
+.rotate4 {
+    transform: skew(-90deg);
+}
+
 
