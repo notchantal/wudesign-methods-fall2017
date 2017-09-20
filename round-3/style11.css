@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: serif;
+    background-color: whitesmoke;
+
+}
+
+p {
+	font-size: 10px;
+    margin: 0;
+    padding: 0;
+    opacity: .12;
+}
+
+.coloredBlock {
+	position: absolute;
+/*	width: 100px;
+	height: 100px;*/
+}
+
+.image-wrapper.fade-out {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.image-wrapper {
+	position: absolute;
+	opacity: 1;
+}
+
+.skew1 {
+    transform: skewX(-20deg) rotate(10deg) translate(-10%, -50%);;
+    transition: all .25s ease;
+}
+
+.skew2 {
+    transform: skewX(-500deg) rotate(100deg) translate(-50%, -10%);;
+    transition: all .25s ease;
+}
+
