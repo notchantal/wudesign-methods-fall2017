@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+p {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 80px;
+}
+
+.coloredBlock {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	transform: translate(-50%, -50%);
+}
+
+.image-wrapper.fade-out {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.image-wrapper {
+	position: absolute;
+	opacity: 1;
+}
+
+

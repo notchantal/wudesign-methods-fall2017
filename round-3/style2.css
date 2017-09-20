@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.container {
+	margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 10%;
+    position: relative;
+    float: left;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 17px;
+	position: relative;
+	color: white;
+	font-weight: normal;
+}
+
+.mono {
+	font-family: monospace;
+}
+
+.rotate {
+	transform: rotate(52deg);	
+	transition: all 1s ;
+
+}
+
+.lettersp h1 {
+	letter-spacing: 50px;
+}
+
+.skewmore {
+	transform: skewX(-420deg) rotate(100deg) translate(-20%, -40%);;
+	transition: all 1s ease;
+}
+
+
+

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 10px;
+}
+
+/*h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 17px;
+	position: relative;
+	color: white;
+	font-weight: normal;
+}
+
+.mono {
+	font-family: monospace;
+}
+
+.rotate {
+	transform: rotate(52deg);	
+	transition: all 1s ;
+
+}
+
+.skewmore {
+	transform: skewX(-420deg) rotate(100deg) translate(-20%, -40%);;
+	transition: all 1s ease;
+}*/
+
+.coloredBlock {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	transform: translate(-50%, -50%);
+}
+
+.image-wrapper.fade-out {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.image-wrapper {
+	position: absolute;
+	opacity: 1;
+}
+
+
