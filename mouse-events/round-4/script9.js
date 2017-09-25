@@ -24,7 +24,7 @@ $("h2").mouseover(function(){
 });
 
 $('.line').mouseover(function() {
-  $(this).toggleClass("skew big");
+  $(this).toggleClass("big");
   $(".line").css("background-color", randomColor({luminosity: "dark", hue: "red"}));
 });
 
