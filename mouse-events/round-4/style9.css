@@ -13,7 +13,7 @@ body {
 	margin: 0;
     padding: 0;
     height: 100%;
-    width: 7%;
+    width: 6%;
     position: relative;
     float: left;
 }
@@ -23,22 +23,44 @@ h1 {
 	padding: 0;
 	text-align: center;
 	font-family: "Roboto", sans-serif;
-	font-size: 19px;
+	font-size: 16px;
 	position: relative;
-	color: white;
+	color: silver;
 	font-weight: normal;
 }
 
-.big h1 {
-	font-size: 30px !important;
-	font-family: serif;
+h2 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 29px;
+	position: relative;
+	color: black;
+	font-weight: bold;
 }
 
-
-.skewmore {
+/*.skewmore {
 	transform: skewX(-420deg) rotate(100deg) translate(-20%, -40%);;
 	transition: all 1s ease;
+}*/
+
+.line {
+    width: 50%;
+    height: 10px;
+    opacity: .75;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    transition: all 5s ease-in-out;
+    position: relative;
 }
+
+.big {
+    height: 500px;
+}
+
 
 
 
