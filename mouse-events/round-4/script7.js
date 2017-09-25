@@ -9,8 +9,5 @@ $("h1").click(function(){
 
 $("h1").hover(function(){
 	$(this).toggleClass("yo");
+	$(this).articulate('speak');
 });
-
-// $("h1").hover(function(){
-// 	$(this).css("font-size", '10px');
-// });
