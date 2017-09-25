@@ -61,6 +61,12 @@ h2 {
     width: 600px;
 }
 
-
+.skew {
+    transform: rotate(-30deg);
+    line-height: 50px;
+    transform: scale(9);
+    position: absolute;
+    opacity: .7;
+}
 
 

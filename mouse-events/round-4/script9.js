@@ -1,3 +1,10 @@
+$('document').ready(function(){
+	$("h1").css("color", 'black')
+	$(this).mousemove(function(){
+		$("h1").css("color", 'white')
+	});
+});
+
 $("h1").mouseover(function(){
 	$(this).css({
 		"font-size": '180px',
@@ -25,8 +32,17 @@ $("h2").mouseover(function(){
 
 $('.line').mouseover(function() {
   $(this).toggleClass("big");
-  $(".line").css("background-color", randomColor({luminosity: "dark", hue: "red"}));
+  $(".line").css("background-color", randomColor({luminosity: "light", hue: "red"}));
 });
+
+$('body').click(function() {
+  $(this).css("background-color", randomColor({luminosity: "dark"}));
+});
+
+$("h2").click(function() {
+  $(this).toggleClass("skew");
+});
+
 
 
 // $("h1").hover(function(){
