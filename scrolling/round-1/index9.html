@@ -8,18 +8,21 @@
 </head>
 <body>
 
-	<div class="moon"
-		data-0="transform:translateX(-900px) translateY(200px) scale(.5); opacity:0"
-		data-2500="transform:translateX(0px) translateY(-100px) scale(1); opacity:1"
-		data-5000="transform:translateX(900px) translateY(200px) scale(.5); opacity:0"></div>
+	<div class="moon-container" data-0="transform:rotate(-180deg)" data-5000="transform:rotate(180deg)">
+		<div class="moon"
+			data-1000="opacity:0; transform: scale(.18)"
+			data-2500="opacity:1; transform: scale(1)"
+			data-4000="opacity:0; transform: scale(.18)">	
+		</div>
+	</div>
 
 
 	<div class="stars"></div>
 
 	<div id="skrollr-body" data-4000="background-color:rgba(0,0,0,1)" data-7000="background-color:rgba(23,15,84,1)" data-8500="background-color:rgba(76,17,161,1)" data-10000="background-color:rgba(219, 73, 30, 1)" data-13000="background-color:rgba(245, 180, 49, 1)" data-19000="background-color:rgba(149, 199, 255 , 1)" data-24000="" class="skrollable skrollable-between"></div>
 
-	<div class="clouds"></div>
-
+<!-- 	<div class="clouds"></div>
+ -->
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
