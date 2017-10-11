@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scroll | Round 2</title>
+	<link rel="stylesheet" type="text/css" href="style5.css">
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
+</head>
+<body>
+
+	<div class="moon-container" data-5000="transform:rotate(-40deg)" data-20000="transform:rotate(40deg)">
+		<div class="moon"
+			data-5000="opacity:0; transform: scale(.5); filter:brightness(.2)"
+			data-11800="opacity:1; transform: scale(1); filter:brightness(1.2)"
+			data-12000=""
+			data-20000="opacity:0; transform: scale(.5); filter:brightness(.2)">	
+		</div>
+	</div>
+
+	<img src="images/shooting-star-big.png" id="shooting-star-big" class="shooting-star-big">
+
+	<div class="stars"></div>
+
+	<div id="skrollr-body" data-15000="background-color:rgba(0,0,0,1)" data-17000="background-color:rgba(23,15,84,1)" data-19000="background-color:rgba(76,17,161,1)" data-20000="background-color:rgba(219, 73, 30, 1)" data-25000="background-color:rgba(245, 180, 49, 1)" data-28000="background-color:rgba(149, 199, 255 , 1)" data-30000="" class="skrollable skrollable-between"></div>
+
+	<div class="poem-container">
+		<div class="verse" data-0="opacity:0; font-size:12px; top: 100%; left:-50%;" data-500="opacity:1; font-size: 25px; top: 40%; left:0%;" data-1000="" data-1500="opacity:0; font-size:12px; top: -50%; left: 50%">
+			<p style="font-size: 14px; letter-spacing: 2px;">&ldquo;ON CLOTHES&rdquo;</p>
+		</div>
+
+		<div class="verse" data-100="opacity:0; font-size:12px; top: 100%" data-500="opacity:1; font-size: 25px; top: 44%" data-1000="" data-1500="opacity:0; font-size:12px; top: -50%">
+			<p style="letter-spacing: 3px; font-size: 33px;">KHALIL GIBRAN</p>
+		</div>
+
+		<div class="verse" data-200="opacity:0; font-size:12px; top: 100%; right:-50%;" data-500="opacity:1; font-size: 25px; top: 51%; right: 0%" data-1000="" data-1500="opacity:0; font-size:12px; top: -50%; right:50%;">
+			<p style="font-size: 14px; letter-spacing: 2px;">FROM THE PROPHET</p>
+		</div>
+
+		<div class="verse" data-1500="opacity:0; font-size:15px; top: -50%" data-2800="opacity:1; font-size: 30px; top: 45%" data-3000="" data-4000="opacity:0; font-size:15px; top: 100%">
+			<p>And the weaver said,</p>
+		</div>
+
+		<div class="verse" data-3500="opacity:0; font-size:15px; top: -50%" data-4500="opacity:1; font-size: 30px; top: 45%" data-4800="" data-5300="opacity:0; font-size:15px; top: 100%">
+			<p>&ldquo;Speak to us of Clothes.&rdquo;</p>
+		</div>
+
+		<div class="verse" data-5200="opacity:0; font-size:15px; left: -50%" data-6000="opacity:1; font-size: 30px; left: 0%" data-6500="" data-7300="opacity:0; font-size:15px; left: 50%" style="top: 50%;">
+			<p>And he answered:</p>
+		</div>
+
+		<div>
+			<img src="images/hand1.svg" style="height: 280px; position: absolute; top: 42%" data-5200="opacity:0; font-size:15px; left: -55%" data-6000="opacity:1; font-size: 30px; left: -6%" data-6500="" data-7300="opacity:0; font-size:15px; left: -55%" >
+		</div>
+
+	</div>
+
+	<div class="sun-container" data-19500="transform:rotate(-50deg)" data-24000="transform:rotate(-30deg)" data-25000="transform:rotate(0deg)">
+		<div class="sun"
+			data-19500="opacity:0; transform: scale(.5); filter:brightness(1);"
+			data-24000="opacity:1; transform: scale(1); filter:brightness(2);"
+			data-28000=""
+			data-30000="opacity:0; transform: scale(.5); filter:brightness(1);">	
+		</div>
+	</div> 
+
+<!-- 	<div class="clouds"></div>
+ -->
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  	<script src="script5.js"></script>
+	<script src="skrollr.min.js"></script> 
+	<script type="text/javascript">var s = skrollr.init();</script>
+</body>
+</html>
