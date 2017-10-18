@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 30000px;
+    height: 60000px;
 }
 
 div {
@@ -189,7 +189,7 @@ p {
   height: 150px;
   display: block;
   border-radius: 100%;
-  background-image: radial-gradient(yellow 10%, orange 50%, transparent 100%);
+  background-image: radial-gradient(yellow 30%, orange 70%, transparent 100%);
   background-size: contain;
   z-index: 3;
 }
