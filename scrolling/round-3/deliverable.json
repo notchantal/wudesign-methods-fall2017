@@ -19,6 +19,10 @@
         {
             "name" : "5: Added 3 verses and hands",
             "file" : "index5.html"
+        },
+        {
+            "name" : "6: Added new hands, finessed last verse",
+            "file" : "index6.html"
         }
     ]
 }
