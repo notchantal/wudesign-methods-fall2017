@@ -15,6 +15,18 @@
         {
             "name" : "4: Fixed sun movement",
             "file" : "index4.html"
+        },
+        {
+            "name" : "5: Added 3 verses and hands",
+            "file" : "index5.html"
+        },
+        {
+            "name" : "6: Added new hands, finessed last verse",
+            "file" : "index6.html"
+        },
+        {
+            "name" : "7: Added cloud and movement",
+            "file" : "index7.html"
         }
     ]
 }
