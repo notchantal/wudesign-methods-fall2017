@@ -21,12 +21,24 @@
             "file" : "index5.html"
         },
         {
-            "name" : "6: Added new hands, finessed last verse",
+            "name" : "6: Added new hands, adjusted last verse",
             "file" : "index6.html"
         },
         {
             "name" : "7: Added cloud and movement",
             "file" : "index7.html"
+        },
+        {
+            "name" : "8: Added new verse",
+            "file" : "index8.html"
+        },
+        {
+            "name" : "9: Added thread",
+            "file" : "index9.html"
+        },
+        {
+            "name" : "10: Added new verse and forest",
+            "file" : "index10.html"
         }
     ]
 }
