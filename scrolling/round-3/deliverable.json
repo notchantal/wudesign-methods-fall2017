@@ -1,19 +1,19 @@
 {
     "entrypoints" : [
         {
-            "name" : "Fixed moon movement",
+            "name" : "1: Fixed moon movement",
             "file" : "index1.html"
         },
         {
-            "name" : "Added verse and hands",
+            "name" : "2: Added verse and hands",
             "file" : "index2.html"
         },
         {
-            "name" : "Added another verse and set of hands",
+            "name" : "3: Added another verse and set of hands",
             "file" : "index3.html"
         },
         {
-            "name" : "Fixed sun movement",
+            "name" : "4: Fixed sun movement",
             "file" : "index4.html"
         }
     ]
