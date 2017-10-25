@@ -1,0 +1,29 @@
+{
+    "entrypoints" : [
+        {
+            "name" : "1: Added new verse",
+            "file" : "index1.html"
+        },
+        {
+            "name" : "2: Added another new verse",
+            "file" : "index2.html"
+        },
+        {
+            "name" : "3: Changed background transition, faded stars",
+            "file" : "index3.html"
+        },
+        {
+            "name" : "4: Added waves, footprints",
+            "file" : "index4.html"
+        },
+        {
+            "name" : "5: Wave transition to dark, added new verse",
+            "file" : "index5.html"
+        },
+        {
+            "name" : "6: Added hair and last verse",
+            "file" : "index6.html"
+        }
+
+    ]
+}
