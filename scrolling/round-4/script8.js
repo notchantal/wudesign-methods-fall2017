@@ -6,7 +6,7 @@ $(document).scroll(function() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 81000 || document.documentElement.scrollTop > 81000) {
+    if (document.body.scrollTop > 82000 || document.documentElement.scrollTop > 82000) {
         document.getElementById("myBtn").style.display = "block";
     } else {
         document.getElementById("myBtn").style.display = "none";

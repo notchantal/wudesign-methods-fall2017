@@ -178,11 +178,11 @@
 
 		<img src="images/feet.svg" style="width: 100%; position: absolute; left: 0%; top: 50%;" data-63000="opacity: 0;" data-63500="opacity: .35;" data-65500="" data-66500="opacity: 0;" >
 
-		<img src="images/waves.svg" style="width: 100%; position: absolute; left: 0%;" data-61500="opacity: 0; top:100%" data-62500="opacity: 1; top:0%" data-63000="" data-64000="opacity: 0; top:100%">
+		<img src="images/waves.svg" style="width: 100%; position: absolute; left: 0%;" data-61500="opacity: 0; top[quadratic]:100%" data-62500="opacity: 1; top[quadratic]:0%" data-63000="" data-64000="opacity: 0; top[quadratic]:100%">
 
-		<img src="images/waves.svg" style="width: 120%; position: absolute; left: -10%;" data-62500="opacity: 0; top:100%" data-63500="opacity: 1; top:-10%" data-64000="" data-65000="opacity: 0; top:100%">
+		<img src="images/waves.svg" style="width: 120%; position: absolute; left: -10%;" data-62500="opacity: 0; top[quadratic]:100%" data-63500="opacity: 1; top[quadratic]:-10%" data-64000="" data-65000="opacity: 0; top[quadratic]:100%">
 
-		<img src="images/waves.svg" style="width: 200%; position: absolute; left: -20%;" data-66000="opacity: 0; top:100%" data-66800="opacity: 1; top:-80%" data-67000="" data-67500="opacity: 0;">
+		<img src="images/waves.svg" style="width: 200%; position: absolute; left: -20%;" data-66000="opacity: 0; top[quadratic]:100%" data-66800="opacity: 1; top[quadratic]:-80%" data-67000="" data-67500="opacity: 0;">
 
 		<div class="verse" style="left: 0%" data-67600="opacity:0; font-size:22px; top: 32%" data-68200="opacity:1; font-size: 30px; top: 35%" data-69700="" data-71000="opacity:0; font-size:22px; top: 38%">
 			<p style="color: white;">and the winds long</p>
@@ -203,13 +203,31 @@
 
 		<img src="images/hair5.svg" style="position: absolute; left: -10%; bottom: -20%; width: 120%;" data-77000="opacity: 0" data-80000="opacity: 1">
 
-		<div class="stars" style="background-color: black; z-index: 100; height: 100%; width: 100%; opacity: 0; position: absolute;" data-77000="opacity:0" data-82000="opacity: 1"></div>
+		<div><button onclick="topFunction()" id="myBtn" title="Go to top">Begin Again</button></div>
 
-		<div style="z-index: 200;"><button onclick="topFunction()" id="myBtn" title="Go to top">Start Over</button></div>
+		<div style="z-index: 400" data-80000="opacity: 0" data-82000="opacity: 1">
+			<p style="z-index: 400" class="end-poem">
+				<span style="font-size: 20px; line-height: 35px">“On Clothes”</span><br>
+				<span style="font-size: 15px; text-transform: uppercase">Kahlil Gibran</span><br>
+				from <span style="font-style: italic">The Prophet</span><br><br><br>
+				And the weaver said, “Speak to us of Clothes.”<br>
+				And he answered:<br>
+				Your clothes conceal much of your beauty, yet they hide not the unbeautiful.<br>
+				And though you seek in garments the freedom of privacy you may find in them a harness and a chain.<br>
+				Would that you could meet the sun and the wind with more of your skin and less of your raiment,<br>
+				For the breath of life is in the sunlight and the hand of life is in the wind.<br><br>
+				Some of you say, “It is the north wind who has woven the clothes to wear.”<br>
+				But shame was his loom, and the softening of the sinews was his thread.<br>
+				And when his work was done he laughed in the forest.<br>
+				Forget not that modesty is for a shield against the eye of the unclean.<br><br>
+				And when the unclean shall be no more, what were modesty but a fetter and a fouling of the mind?<br>
+				And forget not that the earth delights to feel your bare feet and the winds long to play with your hair.
+			</p>
+		</div>
+		
+		<div class="stars" style="background-color: black; z-index: 110; height: 100%; width: 100%; opacity: 0; position: absolute;" data-77000="opacity:0" data-82000="opacity[quadratic]: 1"></div>
 
 	</div>
-
-
 
 	<div class="sun-container" data-20000="transform:rotate(-40deg)" data-35000="transform:rotate(0deg)" data-45000="transform:rotate(0deg)" data-60000="transform:rotate(40deg)">
 		<div class="sun"
@@ -219,8 +237,6 @@
 			data-60000="opacity:0; transform: scale(.5); filter:brightness(.7)">
 		</div>
 	</div>
-
-
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
