@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#skrollr-body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90000px;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.poem-container {
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Ovo', serif;
+  color: lightgrey;
+  z-index: 20;
+}
+
+.verse{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.end-poem {
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  transform: translate(-25%, 75%);
+  bottom: 55%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  line-height: 20px;
+  font-size: 15px;
+  z-index: 400;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 8%; /* Place the button at the bottom of the page */
+    right: 10%; /* Place the button 30px from the right */
+    z-index: 500; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+#myBtn:hover {
+    color: grey;
+}
+
+/*background of stars*/
+
+.stars {
+  position: fixed;
+  background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 8px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 4px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 8px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+/*----------------*/
+
+
+
+
+
+/*shooting star*/
+
+#shooting-star-big{
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    left: 300px;
+    opacity: 0;
+}
+
+@-webkit-keyframes shooting-star{
+    2%{opacity:1;}
+    99%{opacity: 1;-webkit-transform:translate(-180px,180px);transform:translate(-180px,180px)}
+    100%{opacity: 0;}
+}
+
+@keyframes shooting-star{
+    2%{opacity:1;}
+    99%{opacity: 1;-webkit-transform:translate(-180px,180px);transform:translate(-180px,180px)}
+    100%{opacity: 0;}
+}
+
+.shooting-star-big{
+  -webkit-animation: shooting-star .4s linear .25s;
+  animation: shooting-star .4s linear .25s;
+}
+
+/*----------------*/
+
+
+
+
+/*clouds*/
+
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-webkit-keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+
+.clouds {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.clouds {
+  background: transparent
+    url(images/clouds.png) repeat top
+    center;
+  z-index: 3;
+
+  -webkit-animation: move-clouds-back 200s linear infinite;
+  animation: move-clouds-back 200s linear infinite;
+}
+
+/*----------------*/
+
+
+
+
+
+/*moon*/
+
+.moon {
+  position: absolute;
+  top: -1200px;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  display: block;
+  background: transparent
+    url(images/moon.png) no-repeat center
+    center;
+  background-size: contain;
+  z-index: 3;
+}
+
+.moon-container {
+  position: fixed;
+  height: 1px;
+  width: 1px;
+  left: 50%;
+  top: 200%;
+}
+
+/*----------------*/
+
+
+
+/*sun*/
+
+.sun {
+  position: absolute;
+  top: -1250px;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 100%;
+  background-image: radial-gradient(yellow 30%, orange 70%, transparent 100%);
+  background-size: contain;
+  z-index: 3;
+}
+
+.sun-container {
+  position: fixed;
+  height: 1px;
+  width: 1px;
+  left: 50%;
+  top: 200%;
+}
+
+/*----------------*/
+
+
+
