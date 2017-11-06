@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke
+}
+
+div {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.shape {
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1200px){
+    .shape {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .shape {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+	.shape {
+		background-color: red;
+	}
+}
+
+@media screen and (max-width: 700px){
+    .shape {
+        background: linear-gradient(45deg, red, blue);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .shape {
+        transform: rotate(50deg);
+    }
+}
+
+@media screen and (max-height: 200px){
+    .shape {
+     box-shadow: 10px 10px 5px #888888;
+    }
+}
+
+@media screen and (max-height: 300px){
+    .shape {
+     background-color: transparent;
+    border: 3px solid lightgreen !important;
+    }
+}
+
+@media screen and (max-height: 500px){
+    .shape {
+        border-radius: 100%;
+    }
+}
+
+@media screen and (max-height: 650px){
+    .shape {
+        transform: skew(-30deg);
+    }
+}
+
+@media screen and (max-height: 600px){
+    .shape {
+        border: 10px groove pink;
+    }
+}

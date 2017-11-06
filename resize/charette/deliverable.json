@@ -1,0 +1,20 @@
+{
+    "entrypoints" : [
+        {
+            "name" : "A simple shape",
+            "file" : "index1.html"
+        },
+        {
+            "name" : "A word or very short phrase",
+            "file" : "index2.html"
+        },
+        {
+            "name" : "A paragraph of text",
+            "file" : "index3.html"
+        },
+        {
+            "name" : "An image",
+            "file" : "index4.html"
+        }
+    ]
+}
