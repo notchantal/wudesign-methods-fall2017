@@ -12,10 +12,33 @@
             "name" : "03 Letter 'a' font change using .png",
             "file" : "index3.html"
         },
-        ,
         {
             "name" : "04 Letters 'a'-'e' font change using .png",
             "file" : "index4.html"
+        },
+        {
+            "name" : "05 Letters 'a'-'i' font change using .png",
+            "file" : "index5.html"
+        },
+        {
+            "name" : "06 Width: 'a'-'i', Height: 'A'–'D'",
+            "file" : "index6.html"
+        },
+        {
+            "name" : "07 Width: 'a'-'i', Height: background color",
+            "file" : "index7.html"
+        },
+        {
+            "name" : "08 Width: 'a'-'l'",
+            "file" : "index8.html"
+        },
+        {
+            "name" : "09 Width: 'a'-'n'",
+            "file" : "index9.html"
+        },
+        {
+            "name" : "10 Width: 'a'-'q'",
+            "file" : "index10.html"
         }
     ]
 }
