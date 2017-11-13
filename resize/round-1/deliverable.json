@@ -27,6 +27,18 @@
         {
             "name" : "07 Width: 'a'-'i', Height: background color",
             "file" : "index7.html"
+        },
+        {
+            "name" : "08 Width: 'a'-'l'",
+            "file" : "index8.html"
+        },
+        {
+            "name" : "09 Width: 'a'-'n'",
+            "file" : "index9.html"
+        },
+        {
+            "name" : "10 Width: 'a'-'q'",
+            "file" : "index10.html"
         }
     ]
 }
