@@ -27,6 +27,18 @@
         {
             "name" : "07 Font info and long words for 'e-h",
             "file" : "index7.html"
+        },
+        {
+            "name" : "08 Font info and long words for 'i-j",
+            "file" : "index8.html"
+        },
+        {
+            "name" : "09 Font info and long words for 'k-l",
+            "file" : "index9.html"
+        },
+        {
+            "name" : "10 Font info and long words for 'm-n",
+            "file" : "index10.html"
         }
      ]
 }
