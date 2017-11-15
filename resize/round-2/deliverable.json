@@ -15,6 +15,10 @@
         {
             "name" : "04 Letters 'a-z' using jquery instead of css media queries'",
             "file" : "index4.html"
+        },
+        {
+            "name" : "05 Added font info for 'a-c''",
+            "file" : "index5.html"
         }
      ]
 }
