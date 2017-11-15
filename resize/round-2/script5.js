@@ -31,7 +31,7 @@ $(document).ready(function() {
           $('.designer').html("")
           $('.foundry').html("")
           $('.year').html("")
-            $('.letter').css('background-image', 'url(images/alphabet-23.svg)')
+          $('.letter').css('background-image', 'url(images/alphabet-23.svg)')
         }
 
         else if (windowSize <= 725) {

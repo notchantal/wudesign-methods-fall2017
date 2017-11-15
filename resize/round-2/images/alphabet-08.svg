@@ -1,1 +1,10 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700"><title>alphabet</title><path d="M229.19,144H279V295.76q17.73-22.44,31.86-31.58Q335,248.4,371,248.39q64.54,0,87.53,45.15Q471,318.2,471,362V552.24H419.75v-187q0-32.67-8.31-47.92Q397.87,293,360.48,293q-31,0-56.23,21.33T279,394.92V552.24H229.19Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
+<g>
+	<path d="M229.2,144H279v151.8c11.8-15,22.4-25.5,31.9-31.6c16.1-10.5,36.1-15.8,60.1-15.8c43,0,72.2,15.1,87.5,45.1
+		C466.8,310,471,332.8,471,362v190.3h-51.2v-187c0-21.8-2.8-37.8-8.3-47.9c-9-16.2-26-24.4-51-24.4c-20.7,0-39.4,7.1-56.2,21.3
+		c-16.8,14.2-25.2,41.1-25.2,80.6v157.3h-49.9V144z"/>
+</g>
+</svg>

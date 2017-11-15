@@ -17,8 +17,16 @@
             "file" : "index4.html"
         },
         {
-            "name" : "05 Added font info for 'a-c''",
+            "name" : "05 Added font info for 'a-c'",
             "file" : "index5.html"
+        },
+        {
+            "name" : "06 Font info and long words on vertical rezise for 'a-d",
+            "file" : "index6.html"
+        },
+        {
+            "name" : "07 Font info and long words for 'e-h",
+            "file" : "index7.html"
         }
      ]
 }
