@@ -1,0 +1,20 @@
+{
+    "entrypoints" : [
+        {
+            "name" : "01 Font name in top right (html), letters 'a-q' as svgs",
+            "file" : "index1.html"
+        },
+        {
+            "name" : "02 Letters 'a-t' as svgs",
+            "file" : "index2.html"
+        },
+        {
+            "name" : "03 Letters 'a-z' as svgs, can't find fonts for 'x' and 'y'",
+            "file" : "index3.html"
+        },
+        {
+            "name" : "04 Letters 'a-z' using jquery instead of css media queries'",
+            "file" : "index4.html"
+        }
+     ]
+}
