@@ -1,0 +1,8 @@
+{
+    "entrypoints" : [
+        {
+            "name" : "01 Color change option",
+            "file" : "index1.html"
+        }
+     ]
+}
