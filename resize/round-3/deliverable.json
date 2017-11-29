@@ -1,0 +1,52 @@
+{
+    "entrypoints" : [
+        {
+            "name" : "01 Letters 'o-q' words and info",
+            "file" : "index1.html"
+        },
+        {
+            "name" : "02 Letters 'r-t' words and info",
+            "file" : "index2.html"
+        },
+        {
+            "name" : "03 Letters 'u-w' words and info",
+            "file" : "index3.html"
+        },
+        {
+            "name" : "04 Letters 'x-z' words and info",
+            "file" : "index4.html"
+        },
+        {
+            "name" : "05 Letters 'A-C' capitals",
+            "file" : "index5.html"
+        },
+        {
+            "name" : "06 Letters 'D-F' capitals",
+            "file" : "index6.html"
+        },
+        {
+            "name" : "07 Letters 'G-I' capitals",
+            "file" : "index7.html"
+        },
+        {
+            "name" : "08 Letters 'J-L' capitals",
+            "file" : "index8.html"
+        },
+        {
+            "name" : "09 Letters 'M-O' capitals",
+            "file" : "index9.html"
+        },
+        {
+            "name" : "10 Letters 'P-R' capitals",
+            "file" : "index10.html"
+        },
+        {
+            "name" : "11 Letters 'S-U' capitals",
+            "file" : "index11.html"
+        },
+        {
+            "name" : "12 Letters 'V-Z' capitals",
+            "file" : "index12.html"
+        }
+     ]
+}
