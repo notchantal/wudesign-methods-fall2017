@@ -30,7 +30,7 @@ $(document).ready(function() {
           $('.word').css('background-image', 'none')        
         }
 
-        if (windowHeight < 350) {
+        if (windowHeight < 200) {
           $('.font').html("WINDOW TOO SHORT")
           $('.designer').html("")          
           $('.foundry').html("")
@@ -282,136 +282,142 @@ $(document).ready(function() {
 
 
 
+      if (windowHeight < 300) {
+          $('.font').html("WINDOW TOO SHORT")
+          $('.designer').html("")          
+          $('.foundry').html("")
+          $('.year').html("")
+          $('.letter').css('background-image', 'none')
+          $('.word').css('background-image', 'none')        
+        }
 
 
-
-
-      else if (windowWidth <= 625 && windowHeight <= 400) {
+      else if (windowWidth <= 625 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-52.svg')
       }
 
-      else if (windowWidth <= 650 && windowHeight <= 400) {
+      else if (windowWidth <= 650 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-51.svg')
       }
 
-      else if (windowWidth <= 675 && windowHeight <= 400) {
+      else if (windowWidth <= 675 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-50.svg')
       }
 
-      else if (windowWidth <= 700 && windowHeight <= 400) {
+      else if (windowWidth <= 700 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-49.svg')
       }
 
-      else if (windowWidth <= 725 && windowHeight <= 400) {
+      else if (windowWidth <= 725 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-48.svg')
       }
 
-      else if (windowWidth <= 750 && windowHeight <= 400) {
+      else if (windowWidth <= 750 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-47.svg')
       }
 
-      else if (windowWidth <= 775 && windowHeight <= 400) {
+      else if (windowWidth <= 775 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-46.svg')
       }
 
-      else if (windowWidth <= 800 && windowHeight <= 400) {
+      else if (windowWidth <= 800 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-45.svg')
       }
 
-      else if (windowWidth <= 825 && windowHeight <= 400) {
+      else if (windowWidth <= 825 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-44.svg')
       }
 
-      else if (windowWidth <= 850 && windowHeight <= 400) {
+      else if (windowWidth <= 850 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-43.svg')
       }
 
-      else if (windowWidth <= 875 && windowHeight <= 400) {
+      else if (windowWidth <= 875 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-42.svg')
       }
 
-      else if (windowWidth <= 900 && windowHeight <= 400) {
+      else if (windowWidth <= 900 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-41.svg')
       }
 
-      else if (windowWidth <= 925 && windowHeight <= 400) {
+      else if (windowWidth <= 925 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-40.svg')
       }
 
-      else if (windowWidth <= 950 && windowHeight <= 400) {
+      else if (windowWidth <= 950 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-39.svg')
       }
 
-      else if (windowWidth <= 975 && windowHeight <= 400) {
+      else if (windowWidth <= 975 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-38.svg')
       }
 
-      else if (windowWidth <= 1000 && windowHeight <= 400) {
+      else if (windowWidth <= 1000 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-37.svg')
       }
 
-      else if (windowWidth <= 1025 && windowHeight <= 400) {
+      else if (windowWidth <= 1025 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-36.svg')
       }
 
-      else if (windowWidth <= 1050 && windowHeight <= 400) {
+      else if (windowWidth <= 1050 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-35.svg')
       }
 
-      else if (windowWidth <= 1075 && windowHeight <= 400) {
+      else if (windowWidth <= 1075 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-34.svg')
       }
 
-      else if (windowWidth <= 1100 && windowHeight <= 400) {
+      else if (windowWidth <= 1100 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-33.svg')
       }
 
-      else if (windowWidth <= 1125 && windowHeight <= 400) {
+      else if (windowWidth <= 1125 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-32.svg')
       }
 
-      else if (windowWidth <= 1150 && windowHeight <= 400) {
+      else if (windowWidth <= 1150 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-31.svg')
       }
 
-      else if (windowWidth <= 1175 && windowHeight <= 400) {
+      else if (windowWidth <= 1175 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-30.svg')
       } 
 
-      else if (windowWidth <= 1200 && windowHeight <= 400) {
+      else if (windowWidth <= 1200 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-29.svg')
       } 
 
-      else if (windowWidth <= 1225 && windowHeight <= 400) {
+      else if (windowWidth <= 1225 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-28.svg')
       }
 
-      else if (windowWidth <= 1250 && windowHeight <= 400) {
+      else if (windowWidth <= 1250 && windowHeight <= 450) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'url(images/alphabet-27.svg')
       }
@@ -423,7 +429,7 @@ $(document).ready(function() {
 
 
 
-if (windowHeight > 1000) {
+if (windowHeight > 900) {
           $('.font').html("WINDOW TOO TALL")
           $('.designer').html("")          
           $('.foundry').html("")
