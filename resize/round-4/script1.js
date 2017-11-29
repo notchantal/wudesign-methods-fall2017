@@ -21,7 +21,7 @@ $(document).ready(function() {
           $('.word').css('background-image', 'none')        
         }
 
-        if (windowHeight > 800) {
+        if (windowHeight > 1000) {
           $('.font').html("WINDOW TOO TALL")
           $('.designer').html("")          
           $('.foundry').html("")
@@ -423,7 +423,14 @@ $(document).ready(function() {
 
 
 
-
+if (windowHeight > 1000) {
+          $('.font').html("WINDOW TOO TALL")
+          $('.designer').html("")          
+          $('.foundry').html("")
+          $('.year').html("")
+          $('.letter').css('background-image', 'none')
+          $('.word').css('background-image', 'none')        
+        }
 
       else if (windowWidth <= 625 && windowHeight >= 600) {
           $('.letter').css('background-image', 'url(images/alphabet-78.svg')
