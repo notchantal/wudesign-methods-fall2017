@@ -282,25 +282,9 @@ $(document).ready(function() {
 
 
 
-      if (windowWidth < 600) {
-          $('.letter').css('background-image', 'none')
-          $('.word').css('background-image', 'none')
-      }
 
-      if (windowWidth > 1250) {
-          $('.letter').css('background-image', 'none')
-          $('.word').css('background-image', 'none')
-      }
 
-      if (windowHeight < 350) {
-          $('.letter').css('background-image', 'none')
-          $('.word').css('background-image', 'none')
-      }
 
-      if (windowHeight > 800) {
-          $('.letter').css('background-image', 'none')
-          $('.word').css('background-image', 'none')
-      }
 
       else if (windowWidth <= 625 && windowHeight <= 400) {
           $('.letter').css('background-image', 'none')
