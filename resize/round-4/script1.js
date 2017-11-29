@@ -3,13 +3,40 @@ $(document).ready(function() {
         var windowWidth = $(window).width();
         var windowHeight = $(window).height();
 
-        if (windowWidth <= 600 && windowHeight <= 800) {
-          $('.font').html("RESIZE WINDOW")
+        if (windowWidth <= 600) {
+          $('.font').html("WINDOW TOO NARROW")
           $('.designer').html("")
           $('.foundry').html("")
           $('.year').html("")
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'none')
+        }
+
+        if (windowWidth > 1250) {
+          $('.font').html("WINDOW TOO WIDE")
+          $('.designer').html("")          
+          $('.foundry').html("")
+          $('.year').html("")
+          $('.letter').css('background-image', 'none')
+          $('.word').css('background-image', 'none')        
+        }
+
+        if (windowHeight > 800) {
+          $('.font').html("WINDOW TOO TALL")
+          $('.designer').html("")          
+          $('.foundry').html("")
+          $('.year').html("")
+          $('.letter').css('background-image', 'none')
+          $('.word').css('background-image', 'none')        
+        }
+
+        if (windowHeight < 350) {
+          $('.font').html("WINDOW TOO SHORT")
+          $('.designer').html("")          
+          $('.foundry').html("")
+          $('.year').html("")
+          $('.letter').css('background-image', 'none')
+          $('.word').css('background-image', 'none')        
         }
 
         else if (windowWidth <= 625 && windowHeight <= 800) {
@@ -246,23 +273,31 @@ $(document).ready(function() {
           $('.word').css('background-image', 'none')        
    		}
 
-      else if (windowWidth <= 10000) {
-          $('.font').html("RESIZE WINDOW")
-          $('.designer').html("")          
-          $('.foundry').html("")
-          $('.year').html("")
+
+
+
+
+
+
+
+
+
+      if (windowWidth < 600) {
           $('.letter').css('background-image', 'none')
-          $('.word').css('background-image', 'none')        
+          $('.word').css('background-image', 'none')
       }
 
+      if (windowWidth > 1250) {
+          $('.letter').css('background-image', 'none')
+          $('.word').css('background-image', 'none')
+      }
 
+      if (windowHeight < 350) {
+          $('.letter').css('background-image', 'none')
+          $('.word').css('background-image', 'none')
+      }
 
-
-
-
-
-
-      if (windowWidth <= 600 && windowHeight <= 400) {
+      if (windowHeight > 800) {
           $('.letter').css('background-image', 'none')
           $('.word').css('background-image', 'none')
       }
@@ -397,7 +432,7 @@ $(document).ready(function() {
           $('.word').css('background-image', 'url(images/alphabet-27.svg')
       }
 
-      
+    
 
 
 
@@ -405,10 +440,6 @@ $(document).ready(function() {
 
 
 
-      if (windowWidth <= 600 && windowHeight >= 600) {
-          $('.letter').css('background-image', 'none')
-          $('.word').css('background-image', 'none')
-      }
 
       else if (windowWidth <= 625 && windowHeight >= 600) {
           $('.letter').css('background-image', 'url(images/alphabet-78.svg')
@@ -539,6 +570,7 @@ $(document).ready(function() {
           $('.letter').css('background-image', 'url(images/alphabet-53.svg')
           $('.word').css('background-image', 'none')
       }
+
 
 
    	}
