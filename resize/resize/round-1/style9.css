@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+div {
+    position: absolute;
+    display: block;
+   height: 500px;
+    width: 500px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    margin: 0;
+    padding: 0;
+    background-image: url("images/a-01.png");
+    background-position: contain;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 1300px){
+    div {
+     background-image: url("images/alphabet-01.png");
+    }
+}
+
+@media screen and (max-width: 1250px){
+    div {
+     background-image: url("images/alphabet-02.png");
+    }
+}
+
+@media screen and (max-width: 1200px){
+    div {
+     background-image: url("images/alphabet-03.png");
+    }
+}
+
+@media screen and (max-width: 1150px){
+    div {
+     background-image: url("images/alphabet-04.png");
+    }
+}
+
+@media screen and (max-width: 1100px){
+    div {
+     background-image: url("images/alphabet-05.png");
+    }
+}
+
+@media screen and (max-width: 1050px){
+    div {
+     background-image: url("images/alphabet-06.png");
+    }
+}
+
+@media screen and (max-width: 1000px){
+    div {
+     background-image: url("images/alphabet-07.png");
+    }
+}
+
+@media screen and (max-width: 950px){
+    div {
+     background-image: url("images/alphabet-08.png");
+    }
+}
+
+@media screen and (max-width: 900px){
+    div {
+     background-image: url("images/alphabet-09.png");
+    }
+}
+
+@media screen and (max-width: 850px){
+    div {
+     background-image: url("images/alphabet-10.png");
+    }
+}
+
+@media screen and (max-width: 800px){
+    div {
+     background-image: url("images/alphabet-11.png");
+    }
+}
+
+@media screen and (max-width: 750px){
+    div {
+     background-image: url("images/alphabet-12.png");
+    }
+}
+
+@media screen and (max-width: 700px){
+    div {
+     background-image: url("images/alphabet-13.png");
+    }
+}
+
+@media screen and (max-width: 650px){
+    div {
+     background-image: url("images/alphabet-14.png");
+    }
+}
